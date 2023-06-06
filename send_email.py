@@ -1,4 +1,4 @@
-# standar email library
+# standard email library
 import smtplib, ssl
 import os
 
