@@ -1,14 +1,15 @@
 # standard email library
 import smtplib, ssl
-import os
-
+# import os
+import streamlit as st
 
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465
     username = "hajni0490@gmail.com"
     # create environment variable -> only my computer stores this password
-    password = os.getenv("PASSWORD")
+    password = st.secrets["APP_PASSWORD"]
+    #password = os.getenv("PASSWORD")
 
     receiver = "hajni0490@gmail.com"
     # to send emails securely
