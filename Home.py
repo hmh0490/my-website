@@ -17,13 +17,13 @@ with col2:
     financial markets and strategies. Notably, I have also successfully passed the rigorous examination for the 
     Chartered Financial Analyst (CFA) certificate, highlighting my commitment to professional excellence.
     
-    Throughout my career, I have developed a strong passion for programming and have acquired valuable skills in this
-    area. I also proactively pursued programming skills to complement my finance expertise. Through self-study and 
-    practical application, I have acquired a strong foundation in programming languages relevant to the finance sector.
+    Throughout my career, I have developed a strong passion for programming and have acquired valuable experience in this
+    area. I also proactively pursued coding skills to complement my finance background. Through self-study and 
+    practical application, I have acquired a strong foundation in programming languages relevant to my profession.
     
-    I am now driven to combine my profound knowledge of finance with my programming capabilities, aiming to leverage
-    technology to optimize financial processes, automate tasks, and develop sophisticated models for data analysis 
-    and forecasting, and deliver innovative solutions.
+    I am now driven to combine my profound knowledge of finance with my software development capabilities, aiming to leverage
+    technology to optimize processes, automate tasks, and develop sophisticated models for data analysis and forecasting, 
+    and deliver innovative solutions.
     """
     # st.write(content)
     st.info(content)
