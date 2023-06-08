@@ -30,6 +30,7 @@ with col2:
 
 content2 = """
 Below you find some of the apps I have built in Python. Feel free to contact me!
+To access the Contact Me page on mobile, please tap the menu icon (">") located in the top left corner of this website.
 """
 st.write(content2)
 
