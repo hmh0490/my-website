@@ -28,11 +28,12 @@ with col2:
     # st.write(content)
     st.info(content)
 
+url = "https://codingandfinance.streamlit.app/Contact_Me"
+
 content2 = """
-Below you find some of the apps I have built in Python. Feel free to contact me!
-To access the Contact Me page on mobile, please tap the menu icon (">") located in the top left corner of this website.
+Below you find some of the apps I have built in Python. Feel free to [contact me](%s)!
 """
-st.write(content2)
+st.write(content2 % url)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
